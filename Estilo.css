@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+}
+
+.navegacao{
+    background-color: black;
+    font-size: 30px;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cor{
+    color: beige;
+}
+.navegacao ol{
+    list-style-type: none;
+    display: flex;
+}
+
+.navegacao ol li{
+    padding-left: 50px;
+}
+.navegacao ol li:hover{
+color: #ffd800;
+cursor: pointer;
+}
+.banner{
+    background-image: url(como-escolher-barbearia-800x300.png);
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.container{
+    background-color: black;
+    color: white;
+    height: 15vh;
+
+}
+.container .containerTexto h1{
+    margin: 0;
+    font-size: 35px;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+ .Unidade{
+    background-color: #ffdc14;
+    color: black;
+    height: 100vh;
+ }
+
+
